@@ -1,7 +1,7 @@
 /* Workshop design system: tokens. Feel based on a quiet, restrained editorial style.
    Contrast (WCAG): slate 11.11 on white; charcoal 14.16 on white;
    steel #4a6784 5.89 on white, 5.49 on #f5f7fa; red #b83f3f 5.50 on white, 5.12 on #f5f7fa. */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap");
 
 :root {
   /* colours */
@@ -14,8 +14,8 @@
   --color-line: #d9dfe6;
 
   /* fonts */
-  --font-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --font-body: "Lato", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-heading: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 
   /* type scale (restrained, mobile first) */
   --text-sm: 0.875rem;

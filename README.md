@@ -9,13 +9,22 @@ Instructions for an AI assistant. You are building a one-page website for a smal
 ## Rules (follow exactly)
 
 1. Use only the tokens in `tokens.css` and the classes in `base.css`. Do not write other CSS. If you must adjust spacing, use an existing class.
-2. No other colours. No other fonts. The fonts are Source Serif 4 (headings) and Lato (body), already loaded by `tokens.css`.
+2. No other colours. No other fonts. The fonts are Newsreader (headings) and IBM Plex Sans (body), already loaded by `tokens.css`.
 3. No gradients, emoji, icon libraries, icon fonts, stock photos, animations or JavaScript frameworks.
 4. Keep to these sections, in this order: header with business name, hero, services (exactly 3 cards), about, highlights or testimonial (leave out if you have no real content; never invent), contact (email, phone, WhatsApp), footer.
 5. No images unless the owner supplied links. Where a photo would go, use `<div class="photo-block">`. If the owner gave a photo link, use `<img class="photo-block" src="..." alt="...">` with a real description.
 6. Plain, honest copy. Never invent awards, numbers, reviews or clients. No dashes used as punctuation in copy.
 7. Phone links use `tel:+65XXXXXXXX`. WhatsApp uses `https://wa.me/65XXXXXXXX` (digits only, with country code).
 8. Keep one `h1` (the hero), `h2` per section, `h3` per card.
+
+
+## Never use (this is what makes a site look AI-made)
+- Fonts: Inter, Roboto, Poppins, Montserrat, Open Sans, Lato, Nunito, or the plain system font.
+- Gradients of any kind, glowing blobs, glassmorphism, drop shadows, neon or purple-blue colour schemes.
+- Rounded pill-shaped buttons, oversized rounded cards, centred hero sections with everything centred.
+- Emoji, icon libraries (Font Awesome, Heroicons and similar), stock illustrations, decorative SVG shapes.
+- Buzzwords: unlock, elevate, seamless, empower, journey, cutting-edge, revolutionise, next-level, game-changer, "in today's fast-paced world".
+- Invented numbers, awards, reviews or client logos.
 
 ## Load the CSS
 

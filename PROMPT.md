@@ -30,5 +30,5 @@ My contact details:
 
 Optional photo links (delete this block if you have none): [PHOTO LINK 1], [PHOTO LINK 2]
 
-Use plain, honest words. Do not invent awards, numbers or reviews. If you need a testimonial or highlights, ask me or leave that row out.
+Use plain, honest words, specific to my business. Follow the "Never use" list in the README: no buzzwords, no gradients, no emoji. Do not invent awards, numbers or reviews. If you need a testimonial or highlights, ask me or leave that row out.
 When it is done, publish the page and send me the link.
