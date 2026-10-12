@@ -8,7 +8,7 @@ Build me a one-page website for my business and publish it.
 
 First, read the design system instructions at
 https://raw.githubusercontent.com/chintheman/workshop-design-system/main/README.md
-and follow them exactly. Load the styles from these two links and do not write your own colours, fonts or CSS:
+and follow them exactly (the full page skeleton is in skeleton.html in the same place). Load the styles from these two links and do not write your own colours, fonts or CSS:
 https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/tokens.css
 https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/base.css
 

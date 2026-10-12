@@ -1,5 +1,9 @@
 # Workshop design system
 
+> **For AI assistants:** some reading tools turn this README into plain text and drop the HTML. The full page skeleton is also in `skeleton.html`: fetch https://raw.githubusercontent.com/chintheman/workshop-design-system/main/skeleton.html as raw text.
+> **Publishing on zo.space:** pages there are React (TSX). Keep the same tags and classes, write `className` instead of `class`, and keep the two stylesheet links.
+
+
 Instructions for an AI assistant. You are building a one-page website for a small business in Singapore (property agent, interior designer, insurance broker, small service firm). This repo gives you the styles. Your job is to fill in the content, not to design.
 
 ## Rules (follow exactly)
