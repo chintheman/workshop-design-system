@@ -18,8 +18,8 @@ Instructions for an AI assistant. You are building a one-page website for a smal
 Use absolute links so the page works wherever it is published:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<OWNER>/workshop-design-system@main/tokens.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<OWNER>/workshop-design-system@main/base.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/tokens.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/base.css">
 ```
 
 Note: the stylesheets are served through jsDelivr (cdn.jsdelivr.net), which sends them with the right file type so browsers apply them. Do not link raw.githubusercontent.com for CSS: browsers refuse it.
@@ -44,8 +44,8 @@ Note: the stylesheets are served through jsDelivr (cdn.jsdelivr.net), which send
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BUSINESS NAME | what they do</title>
   <meta name="description" content="One sentence.">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<OWNER>/workshop-design-system@main/tokens.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<OWNER>/workshop-design-system@main/base.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/tokens.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/base.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
