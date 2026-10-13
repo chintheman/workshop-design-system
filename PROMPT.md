@@ -1,34 +1,37 @@
-# Finale prompt
+# Website finale prompt
 
-Copy this, change everything inside [SQUARE BRACKETS], then send it to your assistant.
+Copy everything below the line, fill in the blanks, then send it to your Zo assistant.
+Leave a blank empty if it does not apply. It will simply be left off your site.
 
 ---
 
-Build me a one-page website for my business and publish it.
+Build and publish a one-page website for my business.
 
-First, read the design system instructions at
-https://raw.githubusercontent.com/chintheman/workshop-design-system/main/README.md
-and follow them exactly (the full page skeleton is in skeleton.html in the same place). Load the styles from these two links and do not write your own colours, fonts or CSS:
+Use the design system at https://github.com/chintheman/workshop-design-system and follow it exactly:
+read https://raw.githubusercontent.com/chintheman/workshop-design-system/main/README.md and copy the page from https://raw.githubusercontent.com/chintheman/workshop-design-system/main/skeleton.html (read both as raw text).
+Load only these two stylesheets and write no styling of your own:
 https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/tokens.css
 https://cdn.jsdelivr.net/gh/chintheman/workshop-design-system@main/base.css
 
-My business name: [BUSINESS NAME]
+Rules: use my words, plainly. Follow the "Never use" list in the README. Never invent anything: no numbers, awards, reviews, prices or claims I did not give you. If I left a blank empty, leave that part out. When it is live, send me the link.
 
-What I do, in one line: [ONE LINE, for example "I help families buy and sell HDB flats in Singapore"]
+Business name:
+What I do (one line):
+   (e.g. I help families buy and sell HDB flats in the east)
+Who I serve, and where:
+   (e.g. young families and first-time buyers in Tampines and Pasir Ris)
+Service 1 (name, then one sentence):
+Service 2 (name, then one sentence):
+Service 3 (name, then one sentence):
+Why clients pick me (one true line):
+   (e.g. I reply the same day, every day)
+About me (2 lines):
+What visitors should do first (WhatsApp, Call or Email):
+Phone:
+WhatsApp number:
+Email:
 
-My 3 services:
-1. [SERVICE 1 and one short sentence]
-2. [SERVICE 2 and one short sentence]
-3. [SERVICE 3 and one short sentence]
-
-About me, in 2 lines: [TWO LINES ABOUT YOU]
-
-My contact details:
-- Email: [EMAIL]
-- Phone: [PHONE, for example +65 9123 4567]
-- WhatsApp number: [WHATSAPP NUMBER]
-
-Optional photo links (delete this block if you have none): [PHOTO LINK 1], [PHOTO LINK 2]
-
-Use plain, honest words, specific to my business. Follow the "Never use" list in the README: no buzzwords, no gradients, no emoji. Do not invent awards, numbers or reviews. If you need a testimonial or highlights, ask me or leave that row out.
-When it is done, publish the page and send me the link.
+Optional:
+Opening hours:
+Instagram or LinkedIn link:
+Photo links (a photo of me or my work):
