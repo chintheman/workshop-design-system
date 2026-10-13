@@ -11,7 +11,8 @@ Instructions for an AI assistant. You are building a one-page website for a smal
 1. Use only the tokens in `tokens.css` and the classes in `base.css`. Do not write other CSS. If you must adjust spacing, use an existing class.
 2. No other colours. No other fonts. The fonts are Newsreader (headings) and IBM Plex Sans (body), already loaded by `tokens.css`.
 3. No gradients, emoji, icon libraries, icon fonts, stock photos, animations or JavaScript frameworks.
-4. Keep to these sections, in this order: header with business name, hero, services (exactly 3 cards), about, highlights or testimonial (leave out if you have no real content; never invent), contact (email, phone, WhatsApp), footer.
+4. Keep to these sections, in this order: header with business name, hero, services (one card per service the owner gave, up to 3), about, highlights or testimonial (leave out if you have no real content; never invent), contact (email, phone, WhatsApp), footer.
+4a. Show only what the owner gave. In contact, list only the channels they filled in (if only WhatsApp, show only WhatsApp). Do not add a location, country or year the owner did not give, except the copyright year.
 5. No images unless the owner supplied links. Where a photo would go, use `<div class="photo-block" data-initial="X">`, where X is the first letter of the business name. If the owner gave a photo link, use `<img class="photo-block" src="..." alt="...">` with a real description.
 6. Plain, honest copy. Never invent awards, numbers, reviews or clients. No dashes used as punctuation in copy.
 7. Phone links use `tel:+65XXXXXXXX`. WhatsApp uses `https://wa.me/65XXXXXXXX` (digits only, with country code).
@@ -111,7 +112,7 @@ Note: the stylesheets are served through jsDelivr (cdn.jsdelivr.net), which send
     </div></section>
   </main>
   <footer class="site-footer"><div class="container">
-    <p>BUSINESS NAME, Singapore</p>
+    <p>BUSINESS NAME</p>
     <p>&copy; 2026 BUSINESS NAME. All rights reserved.</p>
   </div></footer>
 </body>
