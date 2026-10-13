@@ -12,7 +12,7 @@ Instructions for an AI assistant. You are building a one-page website for a smal
 2. No other colours. No other fonts. The fonts are Newsreader (headings) and IBM Plex Sans (body), already loaded by `tokens.css`.
 3. No gradients, emoji, icon libraries, icon fonts, stock photos, animations or JavaScript frameworks.
 4. Keep to these sections, in this order: header with business name, hero, services (exactly 3 cards), about, highlights or testimonial (leave out if you have no real content; never invent), contact (email, phone, WhatsApp), footer.
-5. No images unless the owner supplied links. Where a photo would go, use `<div class="photo-block">`. If the owner gave a photo link, use `<img class="photo-block" src="..." alt="...">` with a real description.
+5. No images unless the owner supplied links. Where a photo would go, use `<div class="photo-block" data-initial="X">`, where X is the first letter of the business name. If the owner gave a photo link, use `<img class="photo-block" src="..." alt="...">` with a real description.
 6. Plain, honest copy. Never invent awards, numbers, reviews or clients. No dashes used as punctuation in copy.
 7. Phone links use `tel:+65XXXXXXXX`. WhatsApp uses `https://wa.me/65XXXXXXXX` (digits only, with country code).
 8. Keep one `h1` (the hero), `h2` per section, `h3` per card.
@@ -88,7 +88,7 @@ Note: the stylesheets are served through jsDelivr (cdn.jsdelivr.net), which send
     </div></section>
 
     <section class="section" id="about"><div class="container split">
-      <div class="photo-block" role="img" aria-label="Photo placeholder"></div>
+      <div class="photo-block" data-initial="B" role="img" aria-label="Business initial"></div>
       <div><h2>About</h2><p>Two lines about the owner.</p></div>
     </div></section>
 

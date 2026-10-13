@@ -61,6 +61,9 @@ a:hover { color: var(--color-slate); }
 .split { display: grid; gap: var(--space-4); grid-template-columns: 1fr; align-items: center; }
 .photo-block { background: var(--color-mist); border: 1px solid var(--color-line); border-radius: var(--radius); aspect-ratio: 4 / 3; width: 100%; object-fit: cover; }
 .section--alt .photo-block { background: var(--color-white); }
+/* No photo: a soft block showing the business initial (set data-initial on the div). */
+div.photo-block { display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--color-steel) 12%, var(--color-mist)); }
+div.photo-block::after { content: attr(data-initial); font-family: var(--font-heading); font-size: clamp(4rem, 12vw, 8rem); line-height: 1; color: var(--color-slate); opacity: 0.85; }
 
 /* highlights / testimonial */
 .highlights { display: grid; gap: var(--space-3); grid-template-columns: 1fr; margin-top: var(--space-3); }
