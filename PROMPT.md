@@ -2,6 +2,7 @@
 
 Copy everything below the line, fill in the blanks, then send it to your Zo assistant.
 Leave a blank empty if it does not apply. It will simply be left off your site.
+Your contact details will be public. Use only what you already share publicly, like the number on your name card or Google listing. If unsure, leave it blank.
 
 ---
 
